@@ -24,11 +24,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "World Wonders/mapViewController.swift"
-            timestampString = "475885829.483289"
+            timestampString = "475886306.562847"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "105"
-            endingLineNumber = "105"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
             landmarkName = "setupUI()"
             landmarkType = "5">
          </BreakpointContent>
