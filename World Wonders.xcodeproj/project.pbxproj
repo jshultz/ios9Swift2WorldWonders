@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE3409501C5D55CD0081FAC0 /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE34094F1C5D55CD0081FAC0 /* mapViewController.swift */; };
+		DE6387971C5C7A2D0032448A /* locationDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE6387961C5C7A2D0032448A /* locationDetailController.swift */; };
 		DE64FEB11C5AD7270019CD42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE64FEB01C5AD7270019CD42 /* AppDelegate.swift */; };
 		DE64FEB31C5AD7270019CD42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE64FEB21C5AD7270019CD42 /* ViewController.swift */; };
 		DE64FEB61C5AD7270019CD42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE64FEB41C5AD7270019CD42 /* Main.storyboard */; };
 		DE64FEB91C5AD7270019CD42 /* World_Wonders.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE64FEB71C5AD7270019CD42 /* World_Wonders.xcdatamodeld */; };
 		DE64FEBB1C5AD7270019CD42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE64FEBA1C5AD7270019CD42 /* Assets.xcassets */; };
 		DE64FEBE1C5AD7270019CD42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE64FEBC1C5AD7270019CD42 /* LaunchScreen.storyboard */; };
+		DE64FEC71C5B09550019CD42 /* default-placeholder-300x300.png in Resources */ = {isa = PBXBuildFile; fileRef = DE64FEC61C5B09550019CD42 /* default-placeholder-300x300.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE34094F1C5D55CD0081FAC0 /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		DE6387961C5C7A2D0032448A /* locationDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = locationDetailController.swift; sourceTree = "<group>"; };
 		DE64FEAD1C5AD7270019CD42 /* World Wonders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "World Wonders.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE64FEB01C5AD7270019CD42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE64FEB21C5AD7270019CD42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		DE64FEBA1C5AD7270019CD42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE64FEBD1C5AD7270019CD42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE64FEBF1C5AD7270019CD42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE64FEC61C5B09550019CD42 /* default-placeholder-300x300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-placeholder-300x300.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +62,26 @@
 		DE64FEAF1C5AD7270019CD42 /* World Wonders */ = {
 			isa = PBXGroup;
 			children = (
+				DE64FEC51C5B08720019CD42 /* images */,
 				DE64FEB01C5AD7270019CD42 /* AppDelegate.swift */,
 				DE64FEB21C5AD7270019CD42 /* ViewController.swift */,
+				DE6387961C5C7A2D0032448A /* locationDetailController.swift */,
 				DE64FEB41C5AD7270019CD42 /* Main.storyboard */,
 				DE64FEBA1C5AD7270019CD42 /* Assets.xcassets */,
 				DE64FEBC1C5AD7270019CD42 /* LaunchScreen.storyboard */,
 				DE64FEBF1C5AD7270019CD42 /* Info.plist */,
 				DE64FEB71C5AD7270019CD42 /* World_Wonders.xcdatamodeld */,
+				DE34094F1C5D55CD0081FAC0 /* mapViewController.swift */,
 			);
 			path = "World Wonders";
+			sourceTree = "<group>";
+		};
+		DE64FEC51C5B08720019CD42 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DE64FEC61C5B09550019CD42 /* default-placeholder-300x300.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +144,7 @@
 			files = (
 				DE64FEBE1C5AD7270019CD42 /* LaunchScreen.storyboard in Resources */,
 				DE64FEBB1C5AD7270019CD42 /* Assets.xcassets in Resources */,
+				DE64FEC71C5B09550019CD42 /* default-placeholder-300x300.png in Resources */,
 				DE64FEB61C5AD7270019CD42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +157,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE64FEB31C5AD7270019CD42 /* ViewController.swift in Sources */,
+				DE3409501C5D55CD0081FAC0 /* mapViewController.swift in Sources */,
 				DE64FEB11C5AD7270019CD42 /* AppDelegate.swift in Sources */,
 				DE64FEB91C5AD7270019CD42 /* World_Wonders.xcdatamodeld in Sources */,
+				DE6387971C5C7A2D0032448A /* locationDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,6 +308,7 @@
 				DE64FEC41C5AD7270019CD42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
